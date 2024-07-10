@@ -64,6 +64,11 @@ height: 250px;
     opacity: 0.7;
     cursor: pointer;
 }
+/* making anchor similar to button */
+.banner-content .anchor{
+    text-decoration: none;
+    color: white;
+}
 .learn-more-btn{
     color: rgb(13, 19, 33);
     width: 171px;
@@ -88,7 +93,9 @@ border:none;
 border-radius: 8px;
 cursor:pointer;
 }
-
+.black-button:hover{
+    opacity: 1;
+}
 /* Main container stars from here */
 .why-web-dev-section{
  width: 1140px;
